@@ -1,0 +1,47 @@
+Observe cuidadosamente a interface e responda:
+
+- Quais elementos HTML você acredita que foram utilizados?
+<head>; 
+<link rel="stylesheet" href="style.css">;
+<title>;
+<body>;
+<header>;
+<h1>, <h2> e <h3>;
+<p>;
+<button>;
+<main>;
+<div>; 
+<article>;
+<footer>.
+
+- Quais propriedades CSS você acredita que foram utilizadas?
+margin: 
+box-sizing:
+min-height:
+font-family: 
+background-color:
+color:
+display:
+flex-direction: 
+align-items: 
+min-height: 
+padding: 
+gap: 
+font-weight: 
+font-size:
+border:
+transition:
+border-radius:
+cursor:
+transform:
+width:
+max-width:,
+text-align: 
+margin-bottom:
+flex-wrap:
+justify-content:
+line-height:
+content:
+box-shadow:
+opacity:
+margin-top: 

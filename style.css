@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f8fafd;
+    color: #1e293b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 60px 20px;
+}
+
+.titulo_pag {
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.titulo_pag h1 {
+    font-size: 2.5rem;
+    color: #0f172a;
+    font-weight: 700;
+}
+
+.subtitulo_pag {
+    font-size: 1.1rem;
+    color: #475569;
+    max-width: 500px;
+}
+
+.botao_principal {
+    background-color: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.botao_principal:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.02);
+}
+
+.servicos {
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.servicos h2 {
+    font-size: 1.8rem;
+    color: #475569;
+    margin-bottom: 40px;
+}
+
+.cards-grid {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.desenvolvimento_web,
+.consultoria,
+.design {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 35px 25px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.desenvolvimento_web h3,
+.consultoria h3,
+.design h3 {
+    font-size: 1.25rem;
+    color: #334155;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.desenvolvimento_web p,
+.consultoria p,
+.design p {
+    font-size: 0.95rem;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+.desenvolvimento_web h3::before,
+.consultoria h3::before,
+.design h3::before {
+    content: "⭐";
+    font-size: 1.2rem;
+}
+
+.botao_desenvolvimento,
+.botao_consultoria,
+.botao_design {
+    background-color: #f1f5f9;
+    color: #334155;
+    border: none;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 130px;
+    margin-top: 10px;
+    transition: background-color 0.2s;
+}
+
+.botao_desenvolvimento:hover,
+.botao_consultoria:hover,
+.botao_design:hover {
+    background-color: #e2e8f0;
+}
+
+.desenvolvimento_web {
+    border: 2px solid #2563eb;
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.1);
+}
+
+.desenvolvimento_web:hover,
+.consultoria:hover,
+.design:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+    color: #1e293b;
+    opacity: 0.6;
+}

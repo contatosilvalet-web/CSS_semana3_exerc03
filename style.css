@@ -133,13 +133,7 @@ body {
 .desenvolvimento_web h3::before,
 .consultoria h3::before,
 .design h3::before {
-    content: "★";
-    color: #FFD700; 
-    position: relative;
-    display: block;
-    transform: rotate(35deg);
-    font-size: 28px
-    -webkit-text-stroke: 3px #FFD700;
+    content: "⭐";
 }
 
 /* configurações dos botões */ 

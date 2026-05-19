@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     background-color: #f8fafd;
     color: #1e293b;
     display: flex;
@@ -115,7 +115,17 @@ body {
     content: "★";
     color: #FFD700; 
     font-size: 24px;
-}
+    position: absolute;
+    top: 3px;
+    left: -105px;
+    width: 0px;
+    height: 0px;
+    border-right: 100px solid transparent;
+    border-bottom: 70px solid #FFD700;
+    border-left: 100px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+
 }
 
 .botao_desenvolvimento,

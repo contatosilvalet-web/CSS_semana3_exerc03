@@ -1,19 +1,26 @@
+/* O asterístico "*" é o seletor universal, indica todos os elementos da pág */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* tag body é o corpo da pag */
+
 body {
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    background-color: #f8fafd;
-    color: #1e293b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
-    padding: 60px 20px;
+    font-family: Roboto, Helvetica, Arial, sans-serif; /* font-family para os estilos das letras */
+    background-color: #f8fafd; /* cor de fundo */
+    color: #1e293b; /* cor do texto */ 
+    display: flex; /* layout caixinha flexível */ 
+    flex-direction: column; /* elementos da página devem ser um embaixo do outro como coluna */ 
+    align-items: center; /* centralizar os itens */
+    min-height: 100vh; /* body ocupe sempre 100% da altura da tela visualizada */
+    padding: 60px 20px; /* margem interna de segurança para o conteúdo não grudar nas bordas da tela */ 
 }
+
+/* lembrar da text-align: center para centralizar o título/texto */ 
+/* e do align-items: center para itens */
 
 .titulo_pag {
     text-align: center;
@@ -36,6 +43,8 @@ body {
     max-width: 500px;
 }
 
+/* configurações do botão */ 
+
 .botao_principal {
     background-color: #2563eb;
     color: #ffffff;
@@ -48,10 +57,14 @@ body {
     transition: background-color 0.2s, transform 0.2s;
 }
 
+/* efeito visual ":hover" quando o mouse passar sobre o botão */
+
 .botao_principal:hover {
     background-color: #1d4ed8;
     transform: scale(1.02);
 }
+
+/* configurações do <h2> */ 
 
 .servicos {
     width: 100%;
@@ -74,6 +87,8 @@ body {
     flex-wrap: wrap;
 }
 
+/* configurações dos 3 quadrados de informações */ 
+
 .desenvolvimento_web,
 .consultoria,
 .design {
@@ -90,6 +105,8 @@ body {
     transition: transform 0.2s, box-shadow 0.2s;
 }
 
+/* configurações do <h3> */ 
+
 .desenvolvimento_web h3,
 .consultoria h3,
 .design h3 {
@@ -101,6 +118,8 @@ body {
     gap: 8px;
 }
 
+/* configuração dos parágrafos <p> */
+
 .desenvolvimento_web p,
 .consultoria p,
 .design p {
@@ -108,6 +127,8 @@ body {
     color: #64748b;
     line-height: 1.5;
 }
+
+/* configurações do pseudo-elemento estrela */
 
 .desenvolvimento_web h3::before,
 .consultoria h3::before,
@@ -119,6 +140,8 @@ body {
     transform: rotate(35deg);
     font-size: 24px
 }
+
+/* configurações dos botões */ 
 
 .botao_desenvolvimento,
 .botao_consultoria,
@@ -136,6 +159,8 @@ body {
     transition: background-color 0.2s;
 }
 
+/* efeito visual ":hover" quando o mouse passar sobre o botão */
+
 .botao_desenvolvimento:hover,
 .botao_consultoria:hover,
 .botao_design:hover {
@@ -147,6 +172,8 @@ body {
     box-shadow: 0 8px 20px rgba(37, 99, 235, 0.1);
 }
 
+/* efeito visual ":hover" quando o mouse passar sobre o botão */
+
 .desenvolvimento_web:hover,
 .consultoria:hover,
 .design:hover {
@@ -154,10 +181,13 @@ body {
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08);
 }
 
+/* Estilo do rodapézinho */
 footer {
     margin-top: auto;
     text-align: center;
 }
+
+/* Estilo do texto <p> rodapézinho */ 
 
 footer p {
     font-size: 0.9rem;

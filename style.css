@@ -138,7 +138,8 @@ body {
     position: relative;
     display: block;
     transform: rotate(35deg);
-    font-size: 24px
+    font-size: 28px
+    -webkit-text-stroke: 3px #FFD700;
 }
 
 /* configurações dos botões */ 

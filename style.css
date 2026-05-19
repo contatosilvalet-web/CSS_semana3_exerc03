@@ -1,9 +1,9 @@
 /* O asterístico "*" é o seletor universal, indica todos os elementos da pág */
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0; /* Remove as margens padrão que vêm nos elementos */
+    padding: 0; /* Remove o espaçamento interno padrão dos elementos */
+    box-sizing: border-box; /* Inclui o padding (espaçamento interno de um elemento) e a borda no cálculo do tamanho total do elemento */
 }
 
 /* tag body é o corpo da pag */
@@ -126,6 +126,10 @@ body {
     font-size: 0.95rem;
     color: #64748b;
     line-height: 1.5;
+}
+
+.consultoria, .design {
+    border: 2px solid transparent; /* Cria o mesmo espaço de 2px, mas invisível */
 }
 
 /* configurações do pseudo-elemento estrela */
